@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import Demo from "./demo";
+import Graph from "./graph";
 function App() {
-  render(<Demo  />, document.getElementById("root"));
+  render(<Graph  />, document.getElementById("root"));
 }
 export default App;

@@ -8,11 +8,8 @@ import {
   ArgumentAxis,
   ValueAxis,
 } from '@devexpress/dx-react-chart-material-ui';
-import { Stack, Animation } from '@devexpress/dx-react-chart';
-//import { consolidatedUsages   } from './consolidatedUsages';
-//import { born as data } from './demo-data/data-vizualization';
-
-export default class Demo extends React.PureComponent {
+import { Animation } from '@devexpress/dx-react-chart';
+export default class Graph extends React.PureComponent {
   constructor(props) {
     super(props);
 
