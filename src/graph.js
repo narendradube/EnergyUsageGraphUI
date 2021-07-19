@@ -18,7 +18,7 @@ export default class Graph extends React.PureComponent {
     };
   }
   componentDidMount() {
-    axios.get(`https://localhost:44369/api/v1/consolidated/consumption/totalByMeter`)
+    axios.get(`https://energyconsumptionapi.azurewebsites.net/api/v1.0/consolidated/consumption/totalByMeter`)
       .then(res => {
         const data = res.data;
         this.setState({ data });
